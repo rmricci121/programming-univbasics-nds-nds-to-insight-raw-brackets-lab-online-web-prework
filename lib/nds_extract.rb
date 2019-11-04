@@ -36,6 +36,7 @@ def directors_totals(nds)
     while movies_index < movies.length do
   binding.pry
       
+      movies_index += 1
     end
     directors_index += 1
   end
