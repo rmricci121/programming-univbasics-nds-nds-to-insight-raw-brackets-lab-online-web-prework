@@ -22,7 +22,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   index = 0 
   grand_total = {} 
-  movies = directors_database[0][:names]
+  movies = directors_database[0][0]
   while index < movies.length  do 
     puts grand_total = movies[index][:worldwide_gross]
     index += 1
