@@ -20,13 +20,17 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+  #movies = directors_database[index][:name]
+  #while index < movies.length  do 
+    # puts grand_total = movies[index][:name]
+    # index += 1
+    # end
   binding.pry
-  index = 0 
+  directors_index = 0 
   grand_total = {} 
-  movies = directors_database[index][:name]
-  while index < movies.length  do 
-    puts grand_total = movies[index][:name]
-    index += 1
-    end
+  while directors_index < nds.length do
+    
+  end
+
   return grand_total
 end
