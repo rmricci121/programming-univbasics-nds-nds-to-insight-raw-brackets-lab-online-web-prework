@@ -20,6 +20,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+  binding.pry
   index = 0 
   grand_total = {} 
   movies = directors_database[index][:name]
