@@ -32,10 +32,12 @@ def directors_totals(nds)
       grand_total[directors_name] = 0  
       movies = nds[directors_index][:movies]
       movies_index = 0 
+      
     while movies_index < movies.length do
   binding.pry
       
     end
+    directors_index += 1
   end
 
   return grand_total
